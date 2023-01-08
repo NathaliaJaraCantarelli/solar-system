@@ -1,3 +1,147 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('images/background.png');
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  margin: 0;
+}
+
+.Mercúrio {
+  width: 3.5vw;
+}
+
+.Vênus {
+  width: 9vw;
+}
+
+.Terra {
+  width: 8.5vw;
+}
+
+.Marte {
+  width: 7.5vw;
+}
+
+.Júpiter {
+  width: 18vw;
+}
+
+.Saturno {
+  transform: rotate(-10deg);
+  width: 23vw;
+}
+
+.Urano {
+  width: 13vw;
+}
+
+.Netuno {
+  width: 12vw;
+}
+
+h1, h2 {
+  color: aliceblue;
+  margin-top: 0;
+}
+
+.solar-system {
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: absolute;
+  text-align: center;
+  width: 80%;
+}
+
+.planets-div {
+  width: 280vw;
+}
+
+.mission-card-style {
+  background: rgba(0, 0, 0, 0.47);
+  border: 1px solid white;
+  border-radius: 17px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  mix-blend-mode: hard-light;
+  width: 50vw;
+}
+
+.missions-div {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  margin-left: 10%;
+  margin-top: 23vw;
+  padding: 30px 0 60px;
+  position: absolute;
+  width: 80%;
+}
+
+.name-class {
+  border-bottom: 1px dotted white;
+  font-size: large;
+  margin: 0%;
+  padding: 20px;
+  text-align: left;
+}
+
+.names-planet {
+  font-size: 2.8vw;
+}
+
+p {
+  color: white;
+  margin: 0;
+  opacity: 1;
+  padding: 0;
+  text-align: center;
+}
+
+.gg-calendar-today, .gg-pin, .gg-flag {
+  color: white;
+}
+
+.mission-card-button {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 160px;
+  justify-content: space-around;
+  margin: 0;
+  margin-left: 20px;
+}
+
+
+@media ( min-width : 800px ) {
+
+  .mission-card-style {
+    width: 580px;
+  }
+
+  p {
+    padding: 0 20px 0 0;
+  }
+
+  .mission-card-button {
+    flex-direction: row;
+    height: 130px;
+    justify-content: space-around;
+    margin-left: 20px;
+  }
+
+  .names-planet {
+    font-size: medium;
+  }
+
+}
